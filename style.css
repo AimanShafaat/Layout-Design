@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: aqua;
+    position: sticky;
+    width: 98.8vw;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+    color: grey;
+    margin: 20px 10px 20px 35px;
+    font-size: 25px;
+}
+
+.bigBox {
+    background-color: rgb(230, 117, 117);
+    width: 80vw;
+    height: 65vh;
+    margin-left: 10%;
+    margin-top: 55px;
+}
+
+.boxes {
+    display: flex;
+}
+
+.boxOne {
+    background-color: rgb(92, 44, 92);
+    width: 30vw;
+    height: 40vh;
+    margin-left: 8%;
+    margin-top: 8%;
+}
+
+.boxTwo {
+    background-color: rgb(93, 93, 29);
+    width: 30vw;
+    height: 40vh;
+    margin-left: 8%;
+    margin-top: 8%;
+}
+
+.thirdbox {
+    background-color: rgb(143, 27, 102);
+    width: 70vw;
+    height: 45vh;
+    margin-left: 15%;
+    margin-top: 55px;
+    border-radius: 30px;
+}
+
+h1 {
+    justify-content: center;
+    text-align: center;
+    padding-top: 10%;
+    font-size: 50px;
+    font-family: sans-serif;
+    color: rgb(229, 78, 103);
+}
+
+.sidebox {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: orange;
+    right: 23px;
+    bottom: 12px;
+}
+
+footer {
+    background-color: rgb(65, 129, 129);
+    width: 98.8vw;
+    height: 8vh;
+    margin-top: 3%;
+}
+
+p {
+    font-size: 25px;
+    padding-left: 45%;
+    padding-top: 20px;
+}
